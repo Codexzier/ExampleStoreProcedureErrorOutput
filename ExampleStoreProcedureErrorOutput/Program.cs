@@ -2,10 +2,13 @@
 using System.Data.SqlClient;
 
 Console.WriteLine("Ein Beispiel wie man eine Error Meldung aus einer Store Procedure ausgegeben werden kann");
+
 Console.WriteLine("Store Procedure wird ausgeführt ohne Ausnahmefehler!");
 RunStoreProcedure(false);
+
 Console.WriteLine("\r\nStore Procedure wird ausgeführt mit Ausnahmefehler!");
 RunStoreProcedure(true);
+
 Console.WriteLine("\r\nPress enter to close application");
 Console.ReadLine();
 
